@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      #odd {
+    color: black;
+    background-color: pink;
+    font-family: Verdana, 'DejaVu Sans', Sans-Serif;
+}
+
+.No-4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.No-2{
+    color: blue;
+    font-size: 36px;
+}
+
+p .three {
+    font-size: 24px
+}
+    </style>
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p id="odd" class="1" style="font-family: 'Verdana', 'DejaVu Sans', 'Sans-serif'; background-color: pink;">Number 1 - I'm a class!</p>
+    <div class="No-2" style="color: blue; font-size: 36px;">Number 2 - I'm one ID.</div>
+    <p id="odd" class="three" style="font-family: 'Verdana', 'DejaVu Sans', 'Sans-serif'; background-color: pink; font-size: 24px;">Number 3 - I'm a class, but cooler!</p>
+    <div class="No-4" style="background-color: lightgreen; font-size: 24px; font-weight: bold;" >Number 4 - I'm another ID.</div>
+    <p id="odd" class="5" >Number 5 - I'm a class!</p>
   </body>
 </html>
